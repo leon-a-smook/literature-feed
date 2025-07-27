@@ -84,7 +84,6 @@ def generate_rss_feed(feed_title, items, output_file):
             entry.pubDate(format_datetime(dt))
         except Exception as e:
             print(f"⚠️ Skipping invalid pubDate for '{title}': {pub_date} ({e})")
-        print(f"✅ Adding: {title}")
     fg.rss_file(output_file)
 
 # --- Main logic ---
