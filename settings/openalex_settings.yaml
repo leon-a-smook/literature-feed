@@ -1,0 +1,38 @@
+email: lasmook@gmail.com
+impact_threshold: 0.0
+
+queries:
+  keywords_general:
+    type: keyword
+    feed_name: "polymer-brushes"
+    search: "polymer brush"
+
+  researcher_updates:
+    type: authors
+    feed_name: "collaborators"
+    authors:
+      - name: Siddhartha Das
+        id: A5035998125
+      - name: Raashiq Ishraaq
+        id: A5083852003
+      - name: Andreas Dahlin
+        id: A5086078070
+      - name: Stefano Angioletti-Uberti
+        id: A5040404299
+      - name: Sissi de Beer
+        id: A5066282922
+
+  opposition_research:
+    type: authors
+    feed_name: "opposition-members"
+    authors:
+      - name: Jens-Uwe Sommer
+        id: A5055541111
+      - name: Frans Leermakers
+        id: A5024395930
+      - name: Wiebe de Vos
+        id: A5010299255
+      - name: Linn Leppert
+        id: A5024243245
+      - name: Wouter den Otter
+        id: A5014168644
